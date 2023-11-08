@@ -1,6 +1,6 @@
 /* Add a default font family for the entire page */
 body {
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  font-family: 'Comic Sans MS', 'Comic Sans';
   margin: 0;
   padding: 0;
   box-sizing: border-box;
