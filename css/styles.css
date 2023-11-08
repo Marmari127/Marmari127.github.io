@@ -1,6 +1,6 @@
 /* Add this to set a default font family for the entire page */
 body {
-  font-family: 'Arial', sans-serif; /* Example font family */
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive; /* Example font family */
 }
 
 /* Set the font size for the heading */
@@ -15,7 +15,7 @@ h1 {
 
 .menu-section {
   /* Set the default text size for content in each section */
-  font-size: 16px; /* Example font size, adjust as needed */
+  font-size: 100%; /* Example font size, adjust as needed */
 }
 
 /* Now set the background colors for each section as described */
