@@ -1,6 +1,6 @@
 /* Add a default font family for the entire page */
 body {
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive; /* Example font family */
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -20,7 +20,7 @@ h1 {
   top: 10px; /* Position the title 10px from the top of the section */
   right: 10px; /* Position the title 10px from the right of the section */
   padding: 5px;
-  background-color: #f8c291; /* Example background color for the title */
+  background-color: #f8c291; 
   color: white; /* Text color for the title */
   border: 1px solid black; /* Border for the title */
 }
