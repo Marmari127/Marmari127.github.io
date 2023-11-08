@@ -53,7 +53,9 @@ body {
   /* Desktop view */
   .menu-section {
     float: left;
-    width: calc(33.33% - 22px); /* accounting for margin */
+    width: 33.3333%; /* Make each section a third of the total width */
+    margin: 10px 0; /* Vertical margins only, horizontal margins removed */
+    box-sizing: border-box; /* Make sure padding and borders are included in the width */
   }
 }
 
@@ -61,18 +63,19 @@ body {
   /* Tablet view */
   .menu-section {
     float: left;
-    width: calc(50% - 22px); /* accounting for margin */
+    width: 50%; /* Two sections take up half the width each */
   }
   #sushi {
-    width: calc(100% - 22px); /* full width for the third section */
-    clear: both; /* ensures this section falls below the others */
+    width: 100%; /* The third section takes up the full width */
+    clear: both; /* Ensure this section starts on a new line */
   }
 }
 
 @media (max-width: 767px) {
   /* Mobile view */
   .menu-section {
-    width: calc(100% - 22px); /* full width for the sections */
+    width: 100%; /* Each section takes up the full width */
   }
 }
+
 
