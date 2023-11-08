@@ -7,11 +7,13 @@ body {
 }
 
 /* Style for the page heading */
-h1 {
+.food-wiki-header {
   font-size: 175%; /* 75% larger than the body text */
-  text-align: center; /* Centers the header text */
-  margin: 20px 0; /* Adds space above and below the header */
+  text-align: center;
+  margin: 20px 0; /* Adds space above and below the heading */
+  color: #333; /* Dark text color for better readability */
 }
+
 
 /* Set the font sizes for the section titles */
 .section-title {
